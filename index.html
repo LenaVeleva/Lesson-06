@@ -12,43 +12,99 @@
         * {
             box-sizing: border-box;
         }
-        .name {
+        .wrap {
+            width: 25%;
+            height: 580px;
             display: inline-block;
+            vertical-align: top;
+            border: 10px solid blue;
+            padding: 10px;
         }
+        .name {
+            padding: 15px;
+            border: 5px solid teal;
+            margin: 10px 0px 0px 0px;
+            text-transform: uppercase;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        }
+        .description {
+            padding: 15px;
+            border: 5px solid teal;
+            margin: 5px 0px 0px 0px;
+            padding: 12px;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        }
+        .header {
+            text-align: center;
+            border: 1px solid lightblue;
+        }
+        h2 {
+            text-align: center;
+            text-transform: uppercase;
+            color: lightskyblue;
+        }
+        p {
+            text-align: center;
+            font-family: Arial, Helvetica, sans-serif;
+            border: 2px solid blue;
+            margin: 20px 10px;
+        }
+        form {
+            margin: 20px 10px;
+        }
+
     </style>
 </head>
 <body>
     <div class="wrap">
-        <div class="name">  
-            <img src="/gallery/iPhone13Pro1TB.jpg" alt="iPhone13Pro1TB">
-            <h1>Apple iPhone 13 Pro max 1TB</h1>
-            <p>Lorem ipsum dolor sit.</p>
-        </div><!--
-    --><div class="name">
-            <img src="/gallery/iPhone13Pro512GB.jpg" alt="iPhone13Pro512GB">
-            <h1>Apple iPhone 13 Pro max 512GB</h1>
-            <p>Lorem ipsum dolor sit amet.</p>
-        </div><!--
-    --><div class="name">
-            <img src="/gallery/iPhone13Pro256GB.jpg" alt="iPhone13Pro256GB">
-            <h1>Apple iPhone 13 Pro max 256GB</h1>
-            <p>Lorem ipsum dolor sit amet consectetur.</p>
-        </div><!--
-    --><div class="name">
-            <img src="/gallery/iPhone13Pro128GB.jpg" alt="iPhone13Pro128GB">
-            <h1>Apple iPhone 13 Pro max 128GB</h1>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing.</p>
-        </div><!--
-    --><div class="name">
-            <img src="/gallery/iPhone12Pro1TB.jpg" alt="iPhone12Pro1TB">
-            <h1>Apple iPhone 12 Pro max 1TB</h1>
-            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
-        </div><!--
-    --><div class="name">
-            <img src="/gallery/iPhone12Pro512GB.jpg" alt="iPhone12Pro512GB">
-            <h1>Apple iPhone 12 Pro max 512GB</h1>
-            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nisi.</p>
+        <div class="header">
+            <img src="gallery/iPhone13Pro128GB.jpg" alt="iPhone13Pro128GB">
+        </div>
+        <div class="name">
+            Apple iPhone 13 Pro Max 128GB
+        </div>
+        <div class="description">
+            Lorem ipsum dolor sit amet consectetur adipisicing.
+        </div>
+    </div><!--
+ --><div class="wrap">
+        <div class="header">
+            <img src="gallery/iPhone13Pro256GB.jpg" alt="iPhone13Pro256GB">
+        </div>
+        <div class="name">
+            Apple iPhone 13 Pro Max 256GB
+        </div>
+        <div class="description">
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eius recusandae repellendus explicabo.
+        </div>
+    </div><!--
+ --><div class="wrap">
+     <div class="header">
+         <img src="gallery/iPhone13Pro512GB.jpg" alt="iPhone13Pro512GB">
+     </div>
+     <div class="name">
+         Apple iPhone 13 Pro Max 512GB
+     </div>
+     <div class="description">
+         Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat sapiente dolore rerum dicta. Non, eum. Vero amet placeat optio possimus magnam quod consequuntur.
+     </div>
+    </div><!--
+ --><div class="wrap">
+        <div class="header">
+            <img src="gallery/iPhone13Pro1TB.jpg" alt="iPhone13Pro1TB">
+        </div>
+        <div class="name">
+            Apple iPhone 13 Pro Max 1TB
+        </div>
+        <div class="description">
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Fugit itaque porro excepturi animi nemo officiis quis doloribus.
         </div>
     </div>
+    <h2>Краткая характеристика Apple:</h2>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem, debitis maiores. Suscipit iste aspernatur quas nostrum dignissimos obcaecati nemo aliquam. Nisi deserunt ut reiciendis aperiam numquam, exercitationem ipsum fugit alias, similique mollitia veritatis saepe dolorum ab eos nam cumque amet ea quos! Atque quo tempore sunt aliquid, facere magnam beatae minima unde mollitia accusamus soluta delectus, consequuntur fuga ut aut nesciunt adipisci maiores quaerat autem obcaecati! In voluptatem corporis aspernatur.</p>
+    <form action="https://fom.in.ua/echo">
+        <textarea name="comment" placeholder="Оставить отзыв" id="save-com" cols="150" rows="2" ></textarea>
+        <input type="submit" value="Отправить">
+
 </body>
 </html>
